@@ -1,0 +1,11 @@
+Attendance Policy:
+- Students must attend at least 80% of sessions to graduate.
+- Missing more than 3 sessions requires a make-up assignment.
+
+Refund Policy:
+- Full refund within 7 days of enrollment if fewer than 2 sessions attended.
+- 50% refund within 14 days if fewer than 4 sessions attended.
+- No refunds after 14 days.
+
+Certification:
+- Requires final project submission and passing score >= 70%.

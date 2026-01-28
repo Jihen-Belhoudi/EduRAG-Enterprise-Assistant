@@ -1,0 +1,6 @@
+Instructor Rules:
+- Publish session outline 24 hours before class.
+- Track attendance at start of session.
+
+Escalations:
+- If a student is absent 3 times consecutively, notify admin within 24 hours.

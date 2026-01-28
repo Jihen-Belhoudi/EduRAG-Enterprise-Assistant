@@ -1,0 +1,116 @@
+[
+  {
+    "id": "policy_refund_001",
+    "category": "refund_policy",
+    "question": "What is the refund policy?",
+    "expected_facts": [
+      "Full refund within 7 days",
+      "50% refund within 14 days",
+      "No refunds after 14 days"
+    ],
+    "must_include_citation": true,
+    "expected_behavior": "grounded_answer"
+  },
+
+  {
+    "id": "policy_attendance_002",
+    "category": "attendance_policy",
+    "question": "What attendance rate is required to graduate?",
+    "expected_facts": [
+      "80% of sessions"
+    ],
+    "must_include_citation": true,
+    "expected_behavior": "grounded_answer"
+  },
+
+  {
+    "id": "policy_absence_escalation_003",
+    "category": "attendance_policy",
+    "question": "What happens if a student is absent 3 times consecutively?",
+    "expected_facts": [
+      "notify admin within 24 hours"
+    ],
+    "must_include_citation": true,
+    "expected_behavior": "grounded_answer"
+  },
+
+  {
+    "id": "certification_requirements_004",
+    "category": "certification",
+    "question": "What are the certification requirements?",
+    "expected_facts": [
+      "final project submission",
+      "passing score >= 70%"
+    ],
+    "must_include_citation": true,
+    "expected_behavior": "grounded_answer"
+  },
+
+  {
+    "id": "faq_cohort_switch_005",
+    "category": "faq",
+    "question": "Can I switch cohorts?",
+    "expected_facts": [
+      "allowed within the first 2 weeks",
+      "if seats are available"
+    ],
+    "must_include_citation": true,
+    "expected_behavior": "grounded_answer"
+  },
+
+  {
+    "id": "faq_material_access_006",
+    "category": "faq",
+    "question": "How do I access course materials?",
+    "expected_facts": [
+      "shared via the student portal",
+      "within 24 hours of enrollment"
+    ],
+    "must_include_citation": true,
+    "expected_behavior": "grounded_answer"
+  },
+
+  {
+    "id": "instructor_rules_007",
+    "category": "instructor_guidelines",
+    "question": "When should instructors publish the session outline?",
+    "expected_facts": [
+      "24 hours before class"
+    ],
+    "must_include_citation": true,
+    "expected_behavior": "grounded_answer"
+  },
+
+  {
+    "id": "out_of_scope_lifetime_access_008",
+    "category": "out_of_scope",
+    "question": "Do you provide lifetime access?",
+    "expected_facts": [
+      "I don't know"
+    ],
+    "must_include_citation": false,
+    "expected_behavior": "refusal"
+  },
+
+  {
+    "id": "out_of_scope_job_guarantee_009",
+    "category": "out_of_scope",
+    "question": "Do you guarantee a job after graduation?",
+    "expected_facts": [
+      "I don't know"
+    ],
+    "must_include_citation": false,
+    "expected_behavior": "refusal"
+  },
+
+  {
+    "id": "out_of_scope_scholarships_010",
+    "category": "out_of_scope",
+    "question": "Do you offer scholarships?",
+    "expected_facts": [
+      "I don't know"
+    ],
+    "must_include_citation": false,
+    "expected_behavior": "refusal"
+  }
+]
