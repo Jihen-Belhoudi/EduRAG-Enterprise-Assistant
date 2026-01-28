@@ -1,5 +1,5 @@
 """
-EduRAG Assistant - Full Chat Answering (Step 11)
+EduRAG Assistant - Full Chat Answering
 
 Pipeline:
 1. Retrieve relevant chunks from FAISS
