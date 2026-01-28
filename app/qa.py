@@ -1,6 +1,5 @@
 """
-EduRAG Assistant - Question Answering (Step 10)
-
+EduRAG Assistant - Question Answering 
 This script:
 1. Loads the FAISS index
 2. Retrieves relevant chunks
@@ -32,12 +31,12 @@ def ask_question(question: str):
 
     db = load_index()
 
-    print("\n🔍 Question:", question)
+    print("\n Question:", question)
 
     # Retrieve top 3 most relevant chunks
     results = db.similarity_search(question, k=3)
 
-    print("\n📌 Retrieved Context:\n")
+    print("\n Retrieved Context:\n")
 
     for i, doc in enumerate(results):
         print(f"--- Chunk {i+1} ---")
