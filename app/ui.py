@@ -82,7 +82,7 @@ ANSWER:
 # -----------------------------
 st.set_page_config(page_title="EduRAG Assistant", layout="centered")
 
-st.title("🎓 EduRAG Enterprise Assistant")
+st.title(" EduRAG Enterprise Assistant")
 st.write("Ask questions about training center policies, courses, and FAQs.")
 
 # Chat history storage
