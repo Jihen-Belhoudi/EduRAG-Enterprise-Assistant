@@ -68,7 +68,7 @@ ANSWER:
 
     answer = call_llm(prompt)
 
-    print("\n✅ Final Answer:\n")
+    print("\n Final Answer:\n")
     print(answer)
 
 
