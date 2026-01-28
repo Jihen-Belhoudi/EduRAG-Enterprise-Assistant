@@ -1,5 +1,5 @@
 """
-EduRAG Assistant - Index Builder (Step 9)
+EduRAG Assistant - Index Builder 
 
 This script builds a FAISS vector database index from documents stored in /data.
 
@@ -46,7 +46,7 @@ def load_documents(data_dir: str = "data") -> List[Document]:
     docs: List[Document] = []
 
     if not os.path.exists(data_dir):
-        raise FileNotFoundError(f"❌ Data folder not found: {data_dir}")
+        raise FileNotFoundError(f" Data folder not found: {data_dir}")
 
     # Loop over files in /data
     for filename in os.listdir(data_dir):
@@ -58,7 +58,7 @@ def load_documents(data_dir: str = "data") -> List[Document]:
             docs.extend(loader.load())
 
     if not docs:
-        raise ValueError("❌ No documents found in /data folder.")
+        raise ValueError(" No documents found in /data folder.")
 
     return docs
 
@@ -104,7 +104,7 @@ def build_index():
     os.makedirs(INDEX_DIR, exist_ok=True)
     db.save_local(INDEX_DIR)
 
-    print("\n✅ Index built successfully!")
+    print("\n Index built successfully!")
     print("Chunks indexed:", len(chunks))
     print("Saved to:", INDEX_DIR)
 
@@ -116,6 +116,6 @@ if __name__ == "__main__":
     try:
         build_index()
     except Exception as e:
-        print("\n❌ ERROR while building index:")
+        print("\n ERROR while building index:")
         print(type(e).__name__, ":", e)
         raise
