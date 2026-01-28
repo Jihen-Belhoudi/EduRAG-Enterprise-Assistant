@@ -1,5 +1,5 @@
 """
-EduRAG Assistant - Scalable Evaluation Suite (Enterprise Version)
+EduRAG Assistant - Scalable Evaluation Suite
 
 Features:
 - Loads tests dynamically from evaluation/tests.json
@@ -7,8 +7,6 @@ Features:
 - Uses fuzzy matching for facts (robust to paraphrasing)
 - Reports pass rate per category
 - Regression-ready with test IDs
-
-Author: EduRAG Portfolio Project
 """
 
 import json
@@ -160,11 +158,11 @@ def run_eval():
         category_scores[category]["total"] += 1
 
         if test_pass:
-            print("✅ PASS\n")
+            print("PASS\n")
             passed += 1
             category_scores[category]["pass"] += 1
         else:
-            print("❌ FAIL")
+            print("FAIL")
             print("Answer:\n", answer)
             print()
 
